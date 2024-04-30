@@ -12,3 +12,5 @@ function parseBody(req) {
         });
     });
 }
+
+module.exports = parseBody;
