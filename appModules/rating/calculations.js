@@ -7,3 +7,5 @@ function updateRating(array, id, rating) {
     array[index].rating += rating;
     return array;
 }
+
+module.exports = { createRating, updateRating };
